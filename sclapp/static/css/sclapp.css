@@ -1,0 +1,113 @@
+.page-header {
+    background-color: #b1bfc4;
+    margin-top: 0;
+    padding: 2px 2px 2px 4px;
+}
+
+.ident {
+    color: blue;
+    
+}
+.uf {
+    color: blue;
+    position: relative; top: 70px; left: -485px; 
+}
+
+.botao {
+    color: blue;
+    position: relative; top: 90px; left: -350px;
+    border-radius: 100%; 
+}
+
+.bsair {
+    color: blue;
+    position: relative; top: 67px; left: 90px; 
+}
+
+.inicio {
+    padding: 7px;
+    background-color:#3d09fa;
+    color: #fff;
+    text-decoration:none;
+    border-radius: 100%;
+}
+
+
+.page-header h1 {
+    color: #ffffff;
+    font-size: 16pt;
+    text-decoration: none;
+    margin-top: -50px;
+    margin-left: 250px;
+        
+}
+
+.content {
+    margin-left: 40px;
+}
+
+
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 16pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+    font-size: 6pt;
+    color: #000000;
+}
+.navbar-nav{
+    margin-top: -40px;
+    margin-left: 610px;
+}
+.navbar-nav a {
+    color: #0d0d0e;
+    font-size: 13pt;
+        
+}
+
+.controle{
+    margin-left: 350;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: blue;
+}
+
+.save {
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+.dropdown {
+        position: absolute; top: 35px; left: 650px;
+    
+}
+.dropdown2 {
+    position: absolute; top: 35px; left: 755px; 
+    
+}
+.dropdown3 {
+    position: absolute; top: 35px; left: 855px; 
+    
+}

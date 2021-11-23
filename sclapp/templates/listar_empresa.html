@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form class="d-flex" method="GET" > 
+  
+  <input class="form-control me-2" type="text" placeholder="Qual empresa?" name="search" id="search" aria-label="Search">
+  <button class="btn btn-outline-success" type="submit">Buscar</button>
+
+<br>
+<table class="table"> 
+  
+
+  {% for forms in form %}
+  <tr>
+  <td style="background-color: rgb(0, 255, 242);">{{ forms.nome }} </td>
+  <td style="background-color: aquamarine;">{{ forms.cidade }} </td>
+  <td style="background-color: rgb(217, 255, 0);">{{ forms.uf }} </td>
+  <td><a href="{% url 'alteracao' forms.id %}" class="btn btn-primary">Editar</a></td>
+  <td><a href="/" class="btn btn-danger">Deletar</a></td> 
+  </tr>
+  {% endfor %}
+
+</table>
+</form>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="." method="POST" class="post-form">
+    {% csrf_token %}
+    <br>
+     <div class="col-md-8 mb-8">
+        
+      <label class="ident">Empresa</label> {{ form.nome }} 
+     </div> 
+     <br>
+      
+    <div class="col-md-6 mb-6">
+        
+     <label class="ident">Cidade {{ form.cidade }}</label> 
+     
+    </div>
+    <br>
+    <div class="uf">
+    <label class="ident">UF</label> {{ form.uf }} 
+    </div>
+     <br>
+    <div class="botao">
+    <button style="border-color: blue;" type="submit">Incluir</button>
+    </div>
+   
+    
+</form>
+<div class="bsair">
+    <a class="inicio" href="/">Retornar</a>
+</div>
+{% endblock %}
